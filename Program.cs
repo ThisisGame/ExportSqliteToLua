@@ -53,7 +53,7 @@ namespace ThisisGame
                 DataTable tmpDataTable = db.GetDataTable("select * from " + list[tableIndex]);
 
                 StreamWriter tmpStreamWrite = new StreamWriter(tmpExportLuaDirName + "/" + tmpDataTable.TableName+".lua");
-                tmpStreamWrite.WriteLine("local "+ tmpDataTable.TableName+"=");
+                tmpStreamWrite.WriteLine(tmpDataTable.TableName+"=");
                 tmpStreamWrite.WriteLine("{");
 
                 foreach (var tableRow in tmpDataTable.Rows)
