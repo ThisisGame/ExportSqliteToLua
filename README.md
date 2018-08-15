@@ -1,14 +1,13 @@
-# ExportSqliteToTxt
-export sqlite data to txt file. 
+# ExportSqliteToLua
+export sqlite data to Lua. 
 
 
 # Useage
 ````
-ExportSqliteToTxt database.sqlite 1.txt
+ExportSqliteToLua database.sqlite ./Lua
 ````
 
-![image](https://github.com/ThisisGame/ExportSqliteToTxt/blob/master/doc/1.png)
+![image](https://github.com/ThisisGame/ExportSqliteToLua/blob/master/doc/1.png)
 
-# Use To
-I export sqlite data to txt , then use minifont to generate mininal ttf font file.
+
 
